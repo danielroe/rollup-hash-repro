@@ -3,9 +3,9 @@ import { defineConfig } from 'rollup'
 let ref
 
 export default defineConfig({
-  input: 'src/index.js',
+  input: 'src/index',
   output: {
-    dir: 'dist',
+    format: 'esm',
   },
   plugins: [
     {
